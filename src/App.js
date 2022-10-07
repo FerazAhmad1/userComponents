@@ -10,10 +10,10 @@ function App() {
     });
   };
   return (
-    <div>
+    <>
       <Adduser data={userInputs} />
       <UserList userdetail={users} />
-    </div>
+    </>
   );
 }
 
